@@ -1,0 +1,70 @@
+@media only screen and (max-width:1400px) {
+
+    .video-hero video{
+        height: 100%;
+    }
+
+    .btn_medium{
+        width: 100% !important;
+    }
+    .main_title2 h2{
+        font-size: 34px;
+    }
+    .heart_icon {
+        top: 12px;
+        right: 12px;
+    }
+    .heart_icon img{
+        width: 40px;
+    }
+ 
+}
+@media only screen and (max-width:1200px) {
+
+    .main_section_cns .g-5{
+        --bs-gutter-x: 25px;
+    }
+    .heart_icon {
+        top: 14px;
+        right: 14px;
+    }
+    .heart_icon img{
+        width: 35px;
+    }
+}
+@media only screen and (max-width:1100px) {
+    .heart_icon {
+        top: 10px;
+        right: 10px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .new_modal .modal-body {
+        padding: 100px 21px;
+    }
+
+    .new_modal .modal-body p {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .new_modal .modal-body h4{
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    .main_title2 h2 {
+        font-size: 31px;
+    }
+    .login_form_check .form-check-label{
+        font-size: 12px;
+    }
+    .otp_filed_sec input{
+        margin: 56px 20px 0 0px;
+    }
+
+    
+
+}
