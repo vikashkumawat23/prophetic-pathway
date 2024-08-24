@@ -25,7 +25,7 @@ export const Header = () => {
     },
     {
       title: "CONSULTANTS",
-      url: "/ethical-sandards",
+      url: "/PP-consultation",
       cName: "nav-links"
     },
     {
@@ -94,7 +94,8 @@ export const Header = () => {
 
         </div>
         <div className={active ? "nav-menu active" : "nav-menu"}>
-          <ul className='main-menu'>
+        {pathname == '/' ?
+          <ul className='main-menu bg-none'>
             {menuItems.map((item, index) => {
               return (
                 <li key={index}>
@@ -105,8 +106,21 @@ export const Header = () => {
               );
             })}
           </ul>
+          :
+          <ul className='main-menu '>
+            {menuItems.map((item, index) => {
+              return (
+                <li key={index}>
+                  <Link to={item.url} className={item.cName}>
+                    {item.title}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+           }
           <div className='Login-more'>
-            <button className='text-btn header-secch-btn' onClick={SearchCon}><img className='img-fluid ' src={Search} alt="" /></button>
+            {/* <button className='text-btn header-secch-btn' onClick={SearchCon}><img className='img-fluid ' src={Search} alt="" /></button> */}
             <button className='btn-primary login-btn-mange' onClick={linkClick}><img className='img-fluid' src={User} alt="" />Login</button>
             <button className='btn-primary more-value px-4'><span>More</span> <img className='img-fluid' src={Polygon} alt="" />
               <div className='more-menu-show'>

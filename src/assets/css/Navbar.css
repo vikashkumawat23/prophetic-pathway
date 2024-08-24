@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 20px 60px;
   position: fixed;
   width: 100%;
@@ -26,7 +26,8 @@
 }
 
 h1.navbar-logo img {
-  height: 40px;
+  transition: 0.5s;
+  height: 70px;
   filter: brightness(0) saturate(100%) invert(100%) sepia(2%) saturate(8%) hue-rotate(353deg) brightness(104%) contrast(104%);
 }
 h1.navbar-logo.black-logo img{
@@ -35,6 +36,9 @@ h1.navbar-logo.black-logo img{
 .affix h1.navbar-logo.black-logo img{
   filter: brightness(0) saturate(100%) invert(100%) sepia(2%) saturate(8%) hue-rotate(353deg) brightness(104%) contrast(104%);
 
+}
+.affix h1.navbar-logo img {
+  height: 40px;
 }
 .fa-react {
   margin-left: 0.5rem;
@@ -116,12 +120,12 @@ h1.navbar-logo.black-logo img{
 
 .more-menu-show {
   position: absolute;
-  right: 0;
-  top: 70px;
-  border-radius: 25px;
-  background: #AEB9DA;
-  width: 301px;
-  transition: 0.5s;
+    right: -20px;
+    top: 60px;
+    border-radius: 25px;
+    background: #AEB9DA;
+    width: 301px;
+    transition: 0.5s;
   opacity: 0;
   visibility: hidden;
 }

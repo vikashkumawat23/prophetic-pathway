@@ -65,6 +65,9 @@ const Home = () => {
   const linkClick = () => {
     navigate('/login');
   };
+  const consultationLink = () => {
+    navigate('/PP-consultation');
+  };
 
   const [active, setActive] = useState(false);
 
@@ -89,7 +92,7 @@ const Home = () => {
           <h1>Illuminate your path with <br />
             Prophetic Guidances</h1>
           <p>For the testimony of Jesus is the spirit of prophecy</p>
-          <button>Get Prophecy <img className='button-hover-img' src={ButtonArrow} alt="" /></button>
+          <button onClick={consultationLink}>Get Prophecy <img className='button-hover-img' src={ButtonArrow} alt="" /></button>
         </div>
 
       </section>
@@ -202,7 +205,7 @@ const Home = () => {
               </div>
             </Col>
             <Col xl={3} lg={4}>
-              <div className='step-box top-manrge'>
+              <div className='step-box top-manrge bfro-none'>
                 <div className='step-img'>
                   <img src={Step3} alt="" /> <br />
                 </div>

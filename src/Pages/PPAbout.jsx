@@ -68,9 +68,7 @@ const PPAbout = () => {
                   </div>
                   <div className="flip-card-back">
                     <div>
-                      <ul>
-                        <li>We believe God desires prosperity for His children in every aspect of life, and we're here to help you unlock those blessings.</li>
-                      </ul>
+                      <p>We believe God desires prosperity for His children in every aspect of life, and we're here to help you unlock those blessings.</p>
 
 
                     </div>
@@ -89,11 +87,7 @@ const PPAbout = () => {
                   </div>
                   <div className="flip-card-back">
                     <div>
-                      <ul>
-                        <ul>
-                          <li> We guide individuals to discover, develop, and apply their God-given gifts and capabilities to bring glory to Him.</li>
-                        </ul>
-                      </ul>
+                      <p>We guide individuals to discover, develop, and apply their God-given gifts and capabilities to bring glory to Him.</p>
                     </div>
                   </div>
                 </div>
@@ -135,11 +129,7 @@ const PPAbout = () => {
                   </div>
                   <div className="flip-card-back">
                     <div>
-                      <ul>
-                        <ul>
-                          <li>Through the Holy Spirit's power, we believe God still heals and sets people free from all forms of bondage.</li>
-                        </ul>
-                      </ul>
+                      <p>Through the Holy Spirit's power, we believe God still heals and sets people free from all forms of bondage.</p>
                     </div>
                   </div>
                 </div>
@@ -157,11 +147,7 @@ const PPAbout = () => {
                   </div>
                   <div className="flip-card-back">
                     <div>
-                      <ul>
-                        <ul>
-                          <li>We believe Jesus came to set captives free, and we're committed to helping people experience this freedom through His power.</li>
-                        </ul>
-                      </ul>
+                      <p>We believe Jesus came to set captives free, and we're committed to helping people experience this freedom through His power.</p>
                     </div>
                   </div>
                 </div>
@@ -178,11 +164,7 @@ const PPAbout = () => {
                   </div>
                   <div className="flip-card-back">
                     <div>
-                      <ul>
-                        <ul>
-                          <li>We believe God wants His children to thrive in all areas, so we help them unlock the financial blessings He has prepared.</li>
-                        </ul>
-                      </ul>
+                      <p>We believe God wants His children to thrive in all areas, so we help them unlock the financial blessings He has prepared.</p>
                     </div>
                   </div>
                 </div>
@@ -199,11 +181,7 @@ const PPAbout = () => {
                   </div>
                   <div className="flip-card-back">
                     <div>
-                      <ul>
-                        <ul>
-                          <li>Through the Holy Spirit's guidance, we help people discern God's voice and walk in His perfect will for their lives.</li>
-                        </ul>
-                      </ul>
+                      <p>Through the Holy Spirit's guidance, we help people discern God's voice and walk in His perfect will for their lives.</p>
                     </div>
                   </div>
                 </div>
@@ -220,11 +198,7 @@ const PPAbout = () => {
                   </div>
                   <div className="flip-card-back">
                     <div>
-                      <ul>
-                        <ul>
-                          <li>We believe God still speaks prophetically today, and we help individuals understand these messages for their lives.</li>
-                        </ul>
-                      </ul>
+                      <p>We believe God still speaks prophetically today, and we help individuals understand these messages for their lives.</p>
                     </div>
                   </div>
                 </div>
@@ -241,11 +215,7 @@ const PPAbout = () => {
                   </div>
                   <div className="flip-card-back">
                     <div>
-                      <ul>
-                        <ul>
-                          <li>Through prophetic guidance, we help people navigate life's journey and step into God's grand plan for them.</li>
-                        </ul>
-                      </ul>
+                      <p>Through prophetic guidance, we help people navigate life's journey and step into God's grand plan for them.</p>
                     </div>
                   </div>
                 </div>
@@ -365,7 +335,7 @@ const PPAbout = () => {
       <section className='our-story-section our-team'>
         <Container>
           <Row className='align-items-center'>
-            <Col lg={6}>
+            <Col lg={6} className='z-uper'>
               <div className='text-center'>
                 <h2>Our Team</h2>
                 <p>Our team of gifted consultants, inspired by the Holy Spirit, are dedicated to providing accurate prophecies, sound spiritual guidance, and life-changing insights. While each consultant possesses unique gifts and experiences, they share a common passion for empowering and liberating people through the power of the Holy Spirit.</p>
@@ -380,7 +350,7 @@ const PPAbout = () => {
       <section className='our-story-section get-intouch mb-5 pb-5'>
         <Container>
           <Row className='align-items-center justify-content-center'>
-            <Col lg={10}>
+            <Col lg={10} className='z-uper'>
               <div className='text-center'>
                 <h2>Get in Touch</h2>
                 <p>Ready to experience the transformative power of prophetic guidance? Connect with one of our gifted consultants and start your journey toward spiritual breakthrough, healing, and the fulfillment of your God-given destiny. We look forward to hearing from you, your future awaits!</p>

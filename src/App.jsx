@@ -26,6 +26,7 @@ const Services = lazy(() => import('./Pages/Services.jsx'));
 const EthicalSandards = lazy(() => import('./Pages/EthicalSandards.jsx'));
 const FoodAid = lazy(() => import('./Pages/FoodAid.jsx'));
 const PPConsultation = lazy(() => import('./Pages/PPConsultation.jsx'));
+const Contact = lazy(() => import('./Pages/Contact.jsx'));
 
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
           <Route path="/food-aid" element={<FoodAid />} />
           <Route path="/PP-consultation" element={<PPConsultation />} />
           <Route path="/PP-consultation-details" element={<PPConsultationDetails />} />
+          <Route path="/contact" element={<Contact />} />
 
 
         </Routes>
