@@ -58,7 +58,7 @@ const EthicalSandards = () => {
                       <Link to="/">Confidentiality and Privacy</Link>
                     </div>
                   </div>
-                  <div className="flip-card-back">
+                  <div className="flip-card-back align-items-center">
                     <div>
 
                       <p> Advisors must strictly protect client confidentiality and privacy. This entails safeguarding all client information, securely maintaining records, and refraining from disclosing sensitive details without the client's explicit consent, unless legally required to do so.</p>
@@ -77,7 +77,7 @@ const EthicalSandards = () => {
                       <Link to="/">Boundaries and Professionalism</Link>
                     </div>
                   </div>
-                  <div className="flip-card-back">
+                  <div className="flip-card-back align-items-center">
                     <div>
 
                       <p> Advisors are required to uphold strict professional boundaries with clients, abstaining from any inappropriate or unethical conduct, such as requesting personal favors, directly requesting money from our clients, soliciting external business opportunities or pursuing romantic/sexual relationships. All services must be provided exclusively through Prophetic Pathway to ensure the security and protection of clients.</p>
@@ -96,7 +96,7 @@ const EthicalSandards = () => {
                       <Link to="/">Continuing Education and Professional Development</Link>
                     </div>
                   </div>
-                  <div className="flip-card-back">
+                  <div className="flip-card-back align-items-center">
                     <div>
 
                       <p>Advisors are encouraged to continuously pursue continuing education and professional development opportunities to enhance their knowledge, skills, and effectiveness as spiritual advisors. They should consistently seek to improve their abilities, knowledge, and ethical understanding through ongoing education, training, and self-reflection. Advisors should stay informed about developments in relevant fields and adhere to best practices in prophetic consultation. Prophetic Pathway may provide resources, training, or support to facilitate this ongoing growth and learning.</p>
@@ -115,7 +115,7 @@ const EthicalSandards = () => {
                       <Link to="/">Referral and Collaboration</Link>
                     </div>
                   </div>
-                  <div className="flip-card-back">
+                  <div className="flip-card-back align-items-center">
                     <div>
 
                       <p>Advisors must acknowledge the bounds of their expertise and direct clients to suitable specialists when required. Furthermore, they should welcome collaborative relationships with other advisors to promote their clients' overall well-being.</p>
@@ -134,7 +134,7 @@ const EthicalSandards = () => {
                       <Link to="/">Non-Discrimination and Inclusivity</Link>
                     </div>
                   </div>
-                  <div className="flip-card-back">
+                  <div className="flip-card-back align-items-center">
                     <div>
 
                       <p>Prophetic consultation services must be equally accessible, without discrimination based on race, ethnicity, gender identity, sexual orientation, religion, or socioeconomic background. Advisors are prohibited from refusing services to any individual on the basis of these factors.</p>
@@ -153,7 +153,7 @@ const EthicalSandards = () => {
                       <Link to="/">Honesty and Integrity</Link>
                     </div>
                   </div>
-                  <div className="flip-card-back">
+                  <div className="flip-card-back align-items-center">
                     <div>
 
                       <p>their abilities, refraining from making false promises or guarantees about specific outcomes. Additionally, they should never exploit vulnerable individuals for personal gain.</p>
@@ -172,7 +172,7 @@ const EthicalSandards = () => {
                       <Link to="/">Cultural Sensitivity and Respect</Link>
                     </div>
                   </div>
-                  <div className="flip-card-back">
+                  <div className="flip-card-back align-items-center">
                     <div>
 
                       <p>Advisors should demonstrate cultural competence and sensitivity to the diverse backgrounds and beliefs of their clients. They should avoid imposing their own cultural or religious biases and respect the beliefs and practices of others.</p>
@@ -188,7 +188,7 @@ const EthicalSandards = () => {
 
       <section className='prenare-section text-center mb-5'>
         <Container>
-          <Row className='justify-content-center'>
+          <Row className='justify-content-center '>
             <Col md={10}> 
               <p>By adhering to these ethical standards, Prophetic Pathway advisors strive to provide compassionate, respectful, and empowering prophetic consultation services to support the spiritual journey and well-being of our clients.</p>
             </Col>

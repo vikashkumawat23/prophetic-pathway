@@ -122,13 +122,13 @@ export const Header = () => {
           <div className='Login-more'>
             {/* <button className='text-btn header-secch-btn' onClick={SearchCon}><img className='img-fluid ' src={Search} alt="" /></button> */}
             <button className='btn-primary login-btn-mange' onClick={linkClick}><img className='img-fluid' src={User} alt="" />Login</button>
-            <button className='btn-primary more-value px-4'><span>More</span> <img className='img-fluid' src={Polygon} alt="" />
+            <button className='btn-primary more-value px-4'><span>Menu</span> <img className='img-fluid' src={Polygon} alt="" />
               <div className='more-menu-show'>
                 <ul>
                   <li><Link>Book An Appointment</Link></li>
                   <li><Link> Benefit Of the Prophetic</Link></li>
                   <li><Link> Consultant Opportunity</Link></li>
-                  <li><Link> Consultants' Ethical Standards</Link></li>
+                  <li><Link to="/ethical-sandards"> Consultants' Ethical Standards</Link></li>
                   <li><Link> Customer Satisfaction Guaranteed</Link></li>
                   <li><Link> Pricing</Link></li>
                   <li><Link>  How to get started</Link></li>

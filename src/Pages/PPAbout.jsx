@@ -66,7 +66,7 @@ const PPAbout = () => {
                       <Link to="/">Individuals experience the abundant life God intends</Link>
                     </div>
                   </div>
-                  <div className="flip-card-back">
+                  <div className="flip-card-back align-items-center">
                     <div>
                       <p>We believe God desires prosperity for His children in every aspect of life, and we're here to help you unlock those blessings.</p>
 
@@ -85,7 +85,7 @@ const PPAbout = () => {
                       <Link to="/">Through the prophetic, individuals are empowered to fulfill their distinctive callings</Link>
                     </div>
                   </div>
-                  <div className="flip-card-back">
+                  <div className="flip-card-back align-items-center">
                     <div>
                       <p>We guide individuals to discover, develop, and apply their God-given gifts and capabilities to bring glory to Him.</p>
                     </div>
@@ -127,7 +127,7 @@ const PPAbout = () => {
                       <Link to="/">Individuals experience complete healing and restoration. </Link>
                     </div>
                   </div>
-                  <div className="flip-card-back">
+                  <div className="flip-card-back align-items-center">
                     <div>
                       <p>Through the Holy Spirit's power, we believe God still heals and sets people free from all forms of bondage.</p>
                     </div>
@@ -145,7 +145,7 @@ const PPAbout = () => {
                       <Link to="/">Individuals are liberated from demonic oppression</Link>
                     </div>
                   </div>
-                  <div className="flip-card-back">
+                  <div className="flip-card-back align-items-center">
                     <div>
                       <p>We believe Jesus came to set captives free, and we're committed to helping people experience this freedom through His power.</p>
                     </div>
@@ -162,7 +162,7 @@ const PPAbout = () => {
                       <Link to="/">Individuals prospers in alignment with God's will</Link>
                     </div>
                   </div>
-                  <div className="flip-card-back">
+                  <div className="flip-card-back align-items-center">
                     <div>
                       <p>We believe God wants His children to thrive in all areas, so we help them unlock the financial blessings He has prepared.</p>
                     </div>
@@ -179,7 +179,7 @@ const PPAbout = () => {
                       <Link to="/">Individuals hears God's voice clearly</Link>
                     </div>
                   </div>
-                  <div className="flip-card-back">
+                  <div className="flip-card-back align-items-center">
                     <div>
                       <p>Through the Holy Spirit's guidance, we help people discern God's voice and walk in His perfect will for their lives.</p>
                     </div>
@@ -196,7 +196,7 @@ const PPAbout = () => {
                       <Link to="/">Individuals receive personal prophetic messages</Link>
                     </div>
                   </div>
-                  <div className="flip-card-back">
+                  <div className="flip-card-back align-items-center">
                     <div>
                       <p>We believe God still speaks prophetically today, and we help individuals understand these messages for their lives.</p>
                     </div>
@@ -213,7 +213,7 @@ const PPAbout = () => {
                       <Link to="/">Individuals walk in the fullness of their destiny</Link>
                     </div>
                   </div>
-                  <div className="flip-card-back">
+                  <div className="flip-card-back align-items-center">
                     <div>
                       <p>Through prophetic guidance, we help people navigate life's journey and step into God's grand plan for them.</p>
                     </div>
