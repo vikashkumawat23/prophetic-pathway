@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import './assets/css/Main.css'
 import './assets/css/Responsive.css'
+import PPConsultationDetails from './Pages/PPConsultationDetails.jsx';
 
 
 
@@ -52,6 +53,7 @@ function App() {
           <Route path="/ethical-sandards" element={<EthicalSandards />} />
           <Route path="/food-aid" element={<FoodAid />} />
           <Route path="/PP-consultation" element={<PPConsultation />} />
+          <Route path="/PP-consultation-details" element={<PPConsultationDetails />} />
           <Route path="/contact" element={<Contact />} />
 
 
