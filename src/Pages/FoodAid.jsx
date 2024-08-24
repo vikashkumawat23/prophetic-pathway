@@ -111,7 +111,7 @@ const FoodAid = () => {
               <div className='text-center'>
                 <h2>How to Donate</h2>
                 <p>Supporting Prophetic Pathway’s mission is simple and secure.</p>
-                <button className='comn-btn'>Donate <img src={ButtonArrow} className='button-hover-img' alt="" /></button>
+                <button className='comn-btn mt-4'>Donate <img src={ButtonArrow} className='button-hover-img' alt="" /></button>
                 <p>via our secure online portal.</p>
               </div>
             </Col>
@@ -129,7 +129,7 @@ const FoodAid = () => {
         <Container>
           <h2>Other Way to Get Involved</h2>
           <p><strong>Spread the Word</strong></p>
-          <p>Share our mission with your friends and family on social media. Follow us on <Link className='hyper-link'>Instagram</Link>, <Link className='hyper-link'>Facebook,</Link> <Link className='hyper-link'>Twitter,</Link> <Link className='hyper-link'>TikTok</Link> and help us raise awareness about the hunger crisis in Nigeria.</p>
+          <p>Share our mission with your friends and family on social media. Follow us on <Link className='hyper-link'>Instagram</Link>, <br /> <Link className='hyper-link'>Facebook,</Link> <Link className='hyper-link'>Twitter,</Link> <Link className='hyper-link'>TikTok</Link> and help us raise awareness about the hunger crisis in Nigeria.</p>
           <div className='text-center mt-4'>
             {/* <button className='comn-btn'>Get Prophecy <img src={ButtonArrow} className='button-hover-img' alt="" /></button> */}
           </div>
@@ -139,15 +139,15 @@ const FoodAid = () => {
       <section className='prophetic-session text-center'>
         <Container>
           <h2>Contact Us</h2> 
-          <p>If you have any questions or would like more information about our programs and how you can help, please don’t hesitate to get in touch. Together, we can make a difference and work towards a hunger-free Nigeria.</p>
+          <p>If you have any questions or would like more information about our programs and how you <br /> can help, please don’t hesitate to get in touch. Together, we can make a difference and <br /> work towards a hunger-free Nigeria.</p>
           <div className='text-center mt-4'>
             <button className='comn-btn'>Contact Us <img src={ButtonArrow} className='button-hover-img' alt="" /></button>
           </div>
         </Container>
       </section>
-      <section className='prophetic-session text-center pt-4 mb-5'>
+      <section className='prophetic-session text-center pt-5 mb-5'>
         <Container>
-          <p>Your donation can transform lives and bring hope to those who need it most. Join us in our mission to feed the hungry in Nigeria. Together, we can create a brighter, healthier future for all.</p>
+          <p>Your donation can transform lives and bring hope to those who need it most. Join us in our <br /> mission to feed the hungry in Nigeria. Together, we can create a brighter, healthier future <br /> for all.</p>
         </Container>
       </section>
 

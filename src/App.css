@@ -3,6 +3,9 @@ body {
   font-family: 'proxima_nova' !important;
   overflow-x: hidden;
 }
+p{
+  font-size: 20px;
+}
 
 h1,
 h2,
@@ -256,7 +259,7 @@ button:hover .button-hover-img {
 
 .video-about-section p {
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
 
 }
@@ -373,7 +376,14 @@ button:hover .button-hover-img {
   color: #383838;
 
 }
-
+.bfro-none span::before{
+  display: none;
+}
+.bfro-none span:hover{
+  color: #fff;
+  border: 2px solid #FFF;
+  display: inline-block;
+}
 .step-box span:hover::before {
   border: 2px solid #666;
   height: 105px;
@@ -389,7 +399,9 @@ button:hover .button-hover-img {
   position: relative;
   color: #383838;
 }
-
+.bfro-none span:hover+h3{
+  color: #fff;
+}
 .step-box p {
   color: #fff;
   text-align: center;
@@ -543,10 +555,7 @@ button:hover .button-hover-img {
   margin: auto;
   font-weight: 500;
 }
-
-.consultation-section .section-heading h2 {
-  font-size: 26px;
-}
+ 
 
 .consultation-section .section-heading p {
   text-align: center;
@@ -773,7 +782,7 @@ img.vactor-2 {
 
 
 .app-logo-link img {
-  height: 40px;
+  height: 55px;
 }
 
 
@@ -1010,6 +1019,9 @@ button:focus:not(:focus-visible) {
   position: relative;
   z-index: 1;
 }
+.hero-section-2 p{
+  font-size: 22px;
+}
 
 .cloud-img {
   margin-top: -100px;
@@ -1075,6 +1087,7 @@ button:focus:not(:focus-visible) {
   height: 100%;
   bottom: -200px;
   text-align: left;
+  overflow-y: auto;
 }
 
 .flip-card:hover .flip-card-front {
@@ -1090,6 +1103,9 @@ button:focus:not(:focus-visible) {
   opacity: 1;
   z-index: 1;
   bottom: 0px;
+}
+.flip-card-back li, .flip-card-back p{
+  font-size: 24px;
 }
 
 .flip-card-back h3 {
@@ -1264,6 +1280,10 @@ button:focus:not(:focus-visible) {
   justify-content: center;
   flex-wrap: wrap;
 }
+.box-card p {
+  font-size: 22px;
+  color: #1D264D;
+}
 
 .icon-img {
   margin-bottom: 30px;
@@ -1297,7 +1317,7 @@ button:focus:not(:focus-visible) {
 
 .our-story-section p {
   color: #1D264D;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400;
 }
 
@@ -1318,9 +1338,7 @@ button:focus:not(:focus-visible) {
   margin-top: -150px;
 }
 
-.get-intouch p {
-  color: #082cc9;
-}
+ 
 
 .dtl-donater {
   display: flex;
@@ -1333,6 +1351,9 @@ button:focus:not(:focus-visible) {
 .dtl-donater img,
 .dtl-donater button {
   flex: 0 0 auto;
+}
+.dtl-donater img{
+  height: 150px;
 }
 
 .dtl-donater p {
@@ -1472,7 +1493,7 @@ button:focus:not(:focus-visible) {
 
 .prenare-section p,
 .prophetic-session p {
-  font-size: 20px;
+  font-size: 24px;
   color: #1D264D;
 }
 
@@ -1682,4 +1703,50 @@ button:focus:not(:focus-visible) {
 
 .food-srimg img{
   width: 100%;
+}
+
+ 
+.contact-vatco {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  z-index: -1;
+}
+.contact-faq .why-choose .nav-item a{
+  color: #1D264D;
+
+}
+
+.contact-faq .why-choose .nav-item a.active{ 
+  border-bottom: 1px solid #1D264D;
+  font-weight: 600;
+}
+
+.contact-faq .why-choose .nav-item a::before{
+  background-color: #1D264D;
+}
+.contact-faq .tbs-dtl p{
+  color: #1D264D;
+}
+
+.contact-faq .accrodn-mange .accordion .accordion-item button.accordion-button{
+  color: #1D264D;
+
+}
+.contact-faq p{
+  color: #1D264D;
+
+}
+.height-man{
+  height: 50px;
+}
+
+.z-uper{
+  position: relative;
+  z-index: 2;
+}
+
+.bg-none{
+  background: transparent !important;
 }

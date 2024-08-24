@@ -58,13 +58,11 @@ const Services = () => {
                   </div>
                   <div className="flip-card-back">
                     <div>
-
-                      <p> At Prophetic Pathway, our prophetic consultations offer profound benefits, guided by the Holy Spirit, to support your spiritual journey. Our gifted consultants are dedicated to seeking divine revelation to deliver personalized insight and guidance tailored specifically to your unique circumstances. Through these one-on-one sessions, you receive accurate and timely messages that address your needs and concerns.</p>
-
-                      <p>Our consultations go beyond mere advice; they provide holistic support including healing, deliverance, and liberation from spiritual strongholds and demonic oppression. Whether you are facing challenges, bondage, or seeking freedom from deep-rooted issues, our consultants are equipped to facilitate your spiritual breakthrough.</p>
-
-                      <p>By engaging in prophetic consultations, you gain access to powerful, divinely inspired wisdom and strategies that are designed to bring clarity, peace, and transformation into your life. Each session is an opportunity to receive targeted support and encouragement, ensuring that you are empowered to overcome obstacles and move forward in your spiritual journey with confidence and grace.</p>
-
+                      <ul>
+                        <li>At Prophetic Pathway, our prophetic consultations offer profound benefits, guided by the Holy Spirit, to support your spiritual journey. Our gifted consultants are dedicated to seeking divine revelation to deliver personalized insight and guidance tailored specifically to your unique circumstances. Through these one-on-one sessions, you receive accurate and timely messages that address your needs and concerns.</li>
+                        <li>Our consultations go beyond mere advice; they provide holistic support including healing, deliverance, and liberation from spiritual strongholds and demonic oppression. Whether you are facing challenges, bondage, or seeking freedom from deep-rooted issues, our consultants are equipped to facilitate your spiritual breakthrough.</li>
+                        <li>By engaging in prophetic consultations, you gain access to powerful, divinely inspired wisdom and strategies that are designed to bring clarity, peace, and transformation into your life. Each session is an opportunity to receive targeted support and encouragement, ensuring that you are empowered to overcome obstacles and move forward in your spiritual journey with confidence and grace.</li>
+                      </ul> 
                     </div>
                   </div>
                 </div>
@@ -81,11 +79,11 @@ const Services = () => {
                   </div>
                   <div className="flip-card-back">
                     <div>
-                      <p>At Prophetic Pathway, we are honored to offer the powerful support of our consultants, who are empowered by the Holy Spirit to serve as dedicated Prophetic Prayer Warriors and Intercessors. Our consultants are committed to providing heartfelt and effective prayer for those in need, ensuring that every request is met with divine compassion and strength.</p>
-
-                      <p>In these transformative sessions, our consultants stand in the gap, interceding on your behalf with fervent prayers that are guided by spiritual insight and divine revelation. Whether you are facing personal challenges, seeking clarity, or needing breakthrough in specific areas of your life, our intercessors are here to provide the spiritual support and encouragement you need.</p>
-
-                      <p>With their deep spiritual connection and commitment to prayer, our consultants bring a unique level of understanding and guidance. Their prayers are tailored to address your specific needs, helping to invoke God's power and intervention in your life. Trust in their ability to uplift and support you through powerful intercession, facilitating profound healing and change.</p>
+                      <ul>
+                        <li>At Prophetic Pathway, we are honored to offer the powerful support of our consultants, who are empowered by the Holy Spirit to serve as dedicated Prophetic Prayer Warriors and Intercessors. Our consultants are committed to providing heartfelt and effective prayer for those in need, ensuring that every request is met with divine compassion and strength.</li>
+                        <li>In these transformative sessions, our consultants stand in the gap, interceding on your behalf with fervent prayers that are guided by spiritual insight and divine revelation. Whether you are facing personal challenges, seeking clarity, or needing breakthrough in specific areas of your life, our intercessors are here to provide the spiritual support and encouragement you need.</li>
+                        <li>With their deep spiritual connection and commitment to prayer, our consultants bring a unique level of understanding and guidance. Their prayers are tailored to address your specific needs, helping to invoke God's power and intervention in your life. Trust in their ability to uplift and support you through powerful intercession, facilitating profound healing and change.</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -102,11 +100,11 @@ const Services = () => {
                   </div>
                   <div className="flip-card-back">
                     <div>
-                      <p>At Prophetic Pathway, we proudly offer the expertise of our consultants, who are empowered by the Holy Spirit to act as Prophetic Mentors. If you are eager to activate and develop your spiritual gifts, our mentors are here to guide you every step of the way.</p>
-
-                      <p>Our consultant provides personalized support to help you uncover and enhance your unique spiritual abilities. Whether you're seeking to awaken dormant gifts or deepen your current talents, they offer divine insight, practical guidance, and encouragement tailored to your journey.</p>
-
-                      <p>With their profound spiritual wisdom and experience, our mentors are dedicated to facilitating your growth and ensuring you maximize your potential. Embrace this opportunity to be guided by those who are spiritually equipped to mentor and inspire you on your path to greater spiritual fulfillment.</p>
+                      <ul>
+                        <li>At Prophetic Pathway, we proudly offer the expertise of our consultants, who are empowered by the Holy Spirit to act as Prophetic Mentors. If you are eager to activate and develop your spiritual gifts, our mentors are here to guide you every step of the way.</li>
+                        <li>Our consultant provides personalized support to help you uncover and enhance your unique spiritual abilities. Whether you're seeking to awaken dormant gifts or deepen your current talents, they offer divine insight, practical guidance, and encouragement tailored to your journey.</li>
+                        <li>With their profound spiritual wisdom and experience, our mentors are dedicated to facilitating your growth and ensuring you maximize your potential. Embrace this opportunity to be guided by those who are spiritually equipped to mentor and inspire you on your path to greater spiritual fulfillment.</li>
+                      </ul> 
                     </div>
                   </div>
                 </div>
@@ -124,13 +122,12 @@ const Services = () => {
                   </div>
                   <div className="flip-card-back">
                     <div>
-                      <p>At Prophetic Pathway, we are blessed to have a team of consultants uniquely empowered by the Holy Spirit, equipped with the profound gifts of interpreting tongues, dreams, and spiritual visions. Our consultants are dedicated to helping you unlock the full potential of your spiritual experiences.</p>
-
-                      <p>If you find yourself puzzled by your dreams, just connect with our consultants, they are here to offer insightful and accurate interpretations, bringing clarity to your nighttime messages. For those who speak in tongues but struggle to understand the messages, our consultants provide meaningful interpretations that will help you grasp the divine messages being conveyed.</p>
-
-                      <p>Additionally, if you see visions and need assistance in decoding their significance, our team is ready to guide you. They will help you interpret and understand the deeper meanings of your visions, ensuring that you receive the guidance and revelation intended for you.</p>
-
-                      <p>With personalized attention and divine insight, our consultants are committed to helping you navigate your spiritual journey with clarity and purpose. Trust Prophetic Pathway to assist you in uncovering and embracing the full scope of your spiritual gifts.</p>
+                      <ul>
+                        <li>At Prophetic Pathway, we are blessed to have a team of consultants uniquely empowered by the Holy Spirit, equipped with the profound gifts of interpreting tongues, dreams, and spiritual visions. Our consultants are dedicated to helping you unlock the full potential of your spiritual experiences.</li>
+                        <li>If you find yourself puzzled by your dreams, just connect with our consultants, they are here to offer insightful and accurate interpretations, bringing clarity to your nighttime messages. For those who speak in tongues but struggle to understand the messages, our consultants provide meaningful interpretations that will help you grasp the divine messages being conveyed.</li>
+                        <li>Additionally, if you see visions and need assistance in decoding their significance, our team is ready to guide you. They will help you interpret and understand the deeper meanings of your visions, ensuring that you receive the guidance and revelation intended for you.</li>
+                        <li>With personalized attention and divine insight, our consultants are committed to helping you navigate your spiritual journey with clarity and purpose. Trust Prophetic Pathway to assist you in uncovering and embracing the full scope of your spiritual gifts.</li>
+                      </ul>   
                     </div>
                   </div>
                 </div>
