@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header } from '../Components/Header';
-import { Button, Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 import "react-datepicker/dist/react-datepicker.css";
 import { Footer } from '../Components/Footer';
@@ -162,7 +162,7 @@ function PPConsultation() {
                                         <img className='rating-str' src={RatingStar} alt="" />
                                         <span>Available till 7:30 pm EST</span>
                                         <button className='call-btn'> <img src={Callicon1} alt="" /> Call Me</button>
-                                        {/* <span>30-mins</span> */}
+                                        
                                         <div className='mt-4'> <button className='Link_btn btn_small'> Appoinments</button></div>
                                         <div className='heart_icon'>
                                             <img src={Heart} alt="" />
