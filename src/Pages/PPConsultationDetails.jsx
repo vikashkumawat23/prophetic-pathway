@@ -7,6 +7,11 @@ import { Link } from 'react-router-dom';
 import { Header } from '../Components/Header';
 
 export default function PPConsultationDetails() {
+
+    const heartclick = () => {
+        setActive(!active);
+      };
+
     return (
 
         <>
@@ -21,6 +26,9 @@ export default function PPConsultationDetails() {
                     <div className='details_cart'>
                         <div className='details_cart_inner'>
                             <img src={Consultation} alt="" />
+                            <div className='heart-icon' onClick={heartclick}>
+                        <img className='img-fluid' src={active ? HeartIcon : HeartIcon1}   alt="" />
+                                 </div>
                             <div className='cart_title'>
                                 <h3>Melody x7909</h3>
                                 <p>I’m Available - Until 8:00 am EST</p>
