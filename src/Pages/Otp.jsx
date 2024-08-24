@@ -68,7 +68,7 @@ export default function Signup() {
                                 
 
                                <div className='footer_signup'>
-                               <p className='title2 text-center'>We have received a code to</p> 
+                               <p className='title2 text-center'>Didn't you receive any code?</p> 
                                <Link to='' >Resend Code</Link>
                                </div>
 

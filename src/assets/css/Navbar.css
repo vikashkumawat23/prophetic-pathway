@@ -124,7 +124,7 @@ h1.navbar-logo.black-logo img{
     top: 60px;
     border-radius: 25px;
     background: #AEB9DA;
-    width: 301px;
+    width: 340px;
     transition: 0.5s;
   opacity: 0;
   visibility: hidden;
@@ -141,9 +141,9 @@ h1.navbar-logo.black-logo img{
 .more-menu-show ul a{
   text-decoration: none;
   color: #FFF;
-font-size: 16px;
+font-size: 20px;
 font-weight: 600;
-line-height:32px; 
+line-height:35px; 
 }
 @media (max-width: 1600px) {
   .nav-menu {

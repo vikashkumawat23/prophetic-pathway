@@ -1083,7 +1083,7 @@ button:focus:not(:focus-visible) {
   z-index: -1;
   transition: 0.6s;
   display: flex;
-  align-items: center;
+  align-items: self-start;
   height: 100%;
   bottom: -200px;
   text-align: left;
@@ -1354,6 +1354,9 @@ button:focus:not(:focus-visible) {
 }
 .dtl-donater img{
   height: 150px;
+}
+.dtl-donater button img{
+  height: auto;
 }
 
 .dtl-donater p {
